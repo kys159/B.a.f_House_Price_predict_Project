@@ -17,5 +17,30 @@ kaggle에서 제공되어진 데이터이며 리더보드를 통해 서로 경�
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/61648914/90131156-a58cd000-dda6-11ea-8a81-dda5e494d0b4.png" width="50%" height="30%" title="px(픽셀) 크기 설정"><img src="https://user-images.githubusercontent.com/61648914/90131258-cce39d00-dda6-11ea-922c-edf34f5d5af3.png" width="50%" height="30%" title="px(픽셀) 크기 설정">
+## :file_folder: 파일 구조
+```
+├── B.a.f_House_Price_predict_Project/
+   ├── Preprocessing1.R
+   ├── Preprocessing2.R
+   └── Modeling.R
+```
+ - `Preprocessing1.R` 데이터를 불러오기, 파생변수 생성, 이상치 처리등의 전처리 내용이 담겨있는 파일입니다.
+ - `Preprocessing2.R` 1과 동일합니다.
+ - `Modeling.R` 최종 데이터를 활용하여 Linear Regression 모델을 학습시키는 파일입니다.
+ 
+ <br>
+ 
+ <img src="https://user-images.githubusercontent.com/61648914/90131156-a58cd000-dda6-11ea-8a81-dda5e494d0b4.png" width="50%" height="30%" title="px(픽셀) 크기 설정"><img src="https://user-images.githubusercontent.com/61648914/90131258-cce39d00-dda6-11ea-922c-edf34f5d5af3.png" width="50%" height="30%" title="px(픽셀) 크기 설정">
+ 
+ <br>
+ 
+ ## :disappointed: 아쉬운점
+  - 아무래도 처음 접해보는 데이터 분석이다보니 데이터 분할, 모델링 등에서 미숙한 점이 많았으나 그만큼 많이 배울 수 있는 분석이였습니다. <br>
+  - 면적이 중요하지 않은 변수로 나온 이유는 단위문제인 것으로 보임. 1/100 등의 처리를 하여 단위를 맞춰주면 좋은 변수로 사용할 수 있을것으로 보임. <br>
+  - 아노바 대신 Type 3 Sum Of Square를 활용하여 범주형 변수를 제거할지에 대한 여부를 확인할 수 있다. <br>
+  
 
+
+
+ 
+ 
