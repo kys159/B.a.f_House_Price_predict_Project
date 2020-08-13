@@ -19,7 +19,7 @@ kaggle에서 제공되어진 데이터이며 리더보드를 통해 서로 경�
 
 ## :file_folder: 파일 구조
 ```
-├── B.a.f_House_Price_predict_Project/
+├── House_Price_Project/
    ├── Preprocessing1.R
    ├── Preprocessing2.R
    └── Modeling.R
