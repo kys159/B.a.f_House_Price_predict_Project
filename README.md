@@ -1,6 +1,8 @@
 # :house: House Price Predict using Linear Regression :house: <br>
 ###### 비어플 홈페이지 주소 : https://www.dgubaf.com/
 
+<br>
+
 ### 2018.12 비어플 프로젝트
 &nbsp;&nbsp; 비어플 세션을 통해 배운내용들을 바탕으로 실제 데이터를 분석해보는 프로젝트입니다. 미국 에임스 도시 집들의 정보를 가지고 다른 집들의 판매가격을 예측하는것이 목표입니다.<br>
 kaggle에서 제공되어진 데이터이며 리더보드를 통해 서로 경쟁이 진행되었던 데이터입니다.
